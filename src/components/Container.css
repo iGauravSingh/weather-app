@@ -1,0 +1,56 @@
+.weather-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.weather-heading{
+    text-align: center;
+    color: rgb(146, 146, 236);
+}
+
+.weather-input {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.weather-input input {
+    margin-right: 20px;
+    width: 80%;
+    padding: 2px 25px;
+    height: 50px;
+    border-radius: 30px;
+    border: 2px solid rgb(146, 146, 236);
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.weather-input input:focus {
+    outline: 2px solid rgb(134, 134, 238);
+}
+.weather-input button{
+    height: 50px;
+    background-color: white;
+    border: 2px solid rgb(146, 146, 236);
+    border-radius: 15px;
+    padding: 2px 50px;
+    color: rgb(146, 146, 236);
+    cursor: pointer;
+}
+.weather-card {
+    border: 4px solid rgb(146, 146, 236);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    margin-bottom: 10%;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(103, 103, 245);
+}
+.weather-card img{
+    width: 30%;
+}
